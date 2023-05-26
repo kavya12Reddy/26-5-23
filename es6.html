@@ -1,0 +1,70 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var arr=[34,67,89,67,23,45]
+    console.log("length of the Array", arr.length)
+
+    var arr=[45,4,89,67,23,45]
+     for(var i=0;i<=5;i++){
+        console.log(arr[i])
+     }
+
+     var arr=[56,67,34,23,69,90],threeMultiple=[]
+     for(var i=0;i<arr.length;i++){
+        threeMultiple[i]=arr[i]*3
+     }
+     console.log(threeMultiple)
+
+     var arr=[34,56,78,30,20],threeMultiple=[]
+     var threeMultiple=arr.map(function(pos){
+        return pos*3
+     })
+     console.log(threeMultiple)
+
+     var arr=[23,89,67,54,43],fourMultiple=[]
+     var fourMultiple=arr.filter(function(pos){
+        return pos>45
+     })
+     console.log(fourMultiple)
+
+   
+     const a=23;
+     console.log(a)
+     console.log("after 100 lines")
+     e="javascript"
+     console.log(e)
+
+    /*spread operator*/
+   
+    var k1=[34,67,89,45,23,],k2=["kavya","sreeja","siri","bestiee"],
+         k3=["html","react","true","false",34,67]
+     var fullvariable=[...k3,...k1,...k2]
+     console.log(fullvariable)
+      
+     
+     /*setTimeout*/
+
+     setTimeout(function(){
+        console.log("I am happy")
+     },5000)
+      console.log("This is kavya")
+      console.log("I am studying MCA")
+
+
+      /*set Interval*/
+
+      setInterval(()=>{
+        console.log("hanuman")
+      },5000)
+       console.log("sri rama")
+       console.log("shiva")
+
+   </script>
+</body>
+</html>
